@@ -33,7 +33,10 @@ def getUserTurn():                              # GET HUMAN PLAYER TURN
 
 
 def insertLetter(letter, pos):                  # UPDATE THE BOARD WITH THE NEW TURN
-    board[pos] = letter
+    if board[pos] != ' ':                       # CHECK IF THE POSITION IS EMPTRY THEN PUT THE PLAYER TURN THERE
+        board[pos] = letter
+    else:
+        return 'invalid position'
 
 
 def printBoard(board):                          # PRINT THE BOARD
