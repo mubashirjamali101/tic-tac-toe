@@ -1,0 +1,24 @@
+FLOW:
+
+1 > show welcome message
+2 > ask user to choose from 'X' or 'O'
+3 > randomly select one user from computer and human to go with first 
+    turn
+4 > then other player's turn
+4.5> also show the tic tac toe on the console (condole interface or
+    graphics)
+5 > while getting turns check also check for win of someone from both
+6 > if computer wins or human show it
+7 > ask user to play again
+8 > in between any of above steps if user enters quit() or q() then
+    exit
+
+ALGORITHM:
+*function to show welcome message and get user name
+*function to ask user to choose from x/o
+function to get any random player to play the 1st turn
+function to get player's turn as input
+*function to print the board
+check the winner on every step
+loop function
+main function
